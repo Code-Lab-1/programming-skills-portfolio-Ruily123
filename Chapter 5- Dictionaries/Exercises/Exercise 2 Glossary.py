@@ -5,6 +5,7 @@ prog_words = {
     'string': "A series of characters",
     'list': "Collection of items in a particular order"
 }
+
 print("\nVariables: " + prog_words['variables'] + ".")
 print("\nConstants: " + prog_words['constants'] + ".")
 print("\nConcatenation: " + prog_words['concatenation'] + ".")

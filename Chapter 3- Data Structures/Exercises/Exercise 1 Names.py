@@ -1,4 +1,5 @@
-friends = ["Arnan", "JP", "Adam"]
-print(friends[0])
-print(friends[1])
-print(friends[2])
+names = ["Arnan", "JP", "Adam"]
+
+print(names[0])
+print(names[1])
+print(names[2])
