@@ -1,16 +1,36 @@
-pets = []
-Ice = {"name of animal": "Ice", "kind of animal": "cat", "owner": "Railey", "age": "7", "size": "medium-sized"}
-pets.append(Ice)
+pets = {
+    'Ice': {
+        'Name': 'Ice',
+        'Kind': 'Cat',
+        'Owner': 'Railey',
+        'Age': '7',
+        'Size': 'Medium-sized'
+    },
+    'Terry': {
+        'Name': 'Terry',
+        'Kind': 'Dog',
+        'Owner': 'Dyan',
+        'Age': '2',
+        'Size': 'Small-sized'
+    },
+    'Octonami': {
+        'Name': 'Octonami',
+        'Kind': 'Octopus',
+        'Owner': 'Nami',
+        'Age': '4',
+        'Size': 'Large-sized'
+    }
 
-Terry = {"name of animal": "Terry", "kind of animal": "dog", "owner": "Dyan", "age": "2", "size": "medium-sized"}
-pets.append(Terry)
-
-Bunbun = {"name of animal": "Bunbun", "kind of animal": "bunny", "owner": "Nami", "age": "5", "size": "small-sized"}
-pets.append(Bunbun)
-
-Hammy = {"name of animal": "Hammy", "kind of animal": "hamster", "owner": "Rami", "age": "4", "size": "small-sized"}
-pets.append(Hammy)
-
-for pet in pets:
-    print("\n" + pet["name of animal"], "is a", pet["kind of animal"], "owned by", pet["owner"] + ".",
-    pet["name of animal"], "is", pet["age"], "years old", "and is a", pet["size"], pet["kind of animal"] + ".")
+    }
+for pet, pet_info in pets.items():
+    print("\nPet: " + pet)
+    name = pet_info['Name']
+    kind = pet_info['Kind']
+    owner = pet_info['Owner']
+    age = pet_info['Age']
+    size = pet_info['Size']
+    print("\tName: " + name)
+    print("\tKind: " + kind)
+    print("\tOwner: " + owner)
+    print("\tAge: " + age)
+    print("\tSize: " + size)
