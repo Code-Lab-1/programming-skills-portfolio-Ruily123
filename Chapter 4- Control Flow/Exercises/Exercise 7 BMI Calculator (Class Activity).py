@@ -1,5 +1,5 @@
-weight = int(input("weight in kg: "))
-height = int(input("height in cm: "))
+weight = int(input("Weight in kg: "))
+height = int(input("Height in cm: "))
 
 formula = weight / height**2 * 10000
 
