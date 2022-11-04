@@ -13,7 +13,7 @@ print(" ")
 names = ["railey", "dyan", "jen", "terry", "ice", "phil", "nami", "sarah"]
 for name in names:
  if name in favorite_languages.keys():
-  print(name.title() + ", thank you for responding.")
+  print(name.title() + ", thank you for responding the poll.")
  else:
   print(name.title() + ", please respond the poll.")
 

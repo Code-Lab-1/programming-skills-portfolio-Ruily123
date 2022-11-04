@@ -17,4 +17,3 @@ show_magicians(magicians)
 print(" ")
 make_great(magicians)
 show_magicians(magicians)
-
